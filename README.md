@@ -4,9 +4,9 @@ The porpouse of this project is to serve as a training to my skills in ELT (yes 
 This repository consists in a data warehouse of Northwind Traders (https://github.com/jasontaylordev/NorthwindTraders).
 
 Tools used in this project:
-Kondado (https://kondado.com.br/)
-GoogleBigQuery (https://cloud.google.com/bigquery)
-DBT (https://www.getdbt.com/)
+- Kondado (https://kondado.com.br/)
+- GoogleBigQuery (https://cloud.google.com/bigquery)
+- DBT (https://www.getdbt.com/)
 
 ## Install
 
