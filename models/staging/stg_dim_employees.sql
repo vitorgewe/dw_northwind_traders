@@ -4,13 +4,14 @@ with employees as (
         employee_id
 
         /* Selected columns in prod tables */
+        , concat(first_name, last_name) as full_name
+
+        /* Columns to skip in prod tables */
         , first_name
         , last_name
         , city
         , postal_code
         , country
-
-        /* Columns to skip in prod tables */
         , title
         , title_of_courtesy
         , birth_date
