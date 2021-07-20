@@ -1,15 +1,23 @@
-Welcome to your new dbt project!
+### Welcome to my data warehouse project!
 
-### Using the starter project
+The porpouse of this project is to serve as a training to my skills in ELT (yes ELT not ETL) and for everyone that want to learn something from it.
+This repository consists in a data warehouse of Northwind Traders (https://github.com/jasontaylordev/NorthwindTraders).
 
-Try running the following commands:
+Tools used in this project:
+Kondado (https://kondado.com.br/)
+GoogleBigQuery (https://cloud.google.com/bigquery)
+DBT (https://www.getdbt.com/)
+
+## Install
+
+All dependencies are in requirements.txt.
+Try:
+- pip install -r requirements.txt
+
+## Using the project
+
+To make use of this project try the following commands:
 - dbt run
 - dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](http://slack.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+- dbt docs generate
+- dbt docs serve
