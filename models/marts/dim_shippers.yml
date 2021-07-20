@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_shippers
+    description: This is the shippers dimension table in this data warehouse.
+    columns: 
+      - name: shipper_sk
+        description: This is the primary key of shippers dimension table.
+        tests:
+          - unique
+          - not_null

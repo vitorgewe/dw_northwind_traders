@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: This is the main fact table in this data warehouse.
+    columns: 
+      - name: order_id
+        description: This is the primary key of fact orders table.
+        tests:
+          - unique
+          - not_null

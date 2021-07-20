@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: This is the customers dimension table in this data warehouse.
+    columns: 
+      - name: customer_sk
+        description: This is the primary key of customers dimension table.
+        tests:
+          - unique
+          - not_null

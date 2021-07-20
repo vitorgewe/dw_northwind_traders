@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_suppliers
+    description: This is the suppliers dimension table in this data warehouse.
+    columns: 
+      - name: supplier_sk
+        description: This is the primary key of suppliers dimension table.
+        tests:
+          - unique
+          - not_null

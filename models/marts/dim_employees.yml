@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: dim_employees
+    description: This is the employees dimension table in this data warehouse.
+    columns: 
+      - name: employee_sk
+        description: This is the primary key of employees dimension table.
+        tests:
+          - unique
+          - not_null
