@@ -16,7 +16,7 @@ Try:
 
 ## Using the project
 
-To make use of this project try the following commands:
+To make use of this project use the following commands:
 - dbt run
 - dbt test
 - dbt docs generate
