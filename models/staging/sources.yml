@@ -24,8 +24,17 @@ sources:
       - name: public_products
         description: This is the table of products from northwind shop.
         columns: 
-          - name: products_id
+          - name: product_id
             description: This is the primary key of products table.
+            tests:
+              - unique
+              - not_null
+      
+      - name: public_categories
+        description: This is the table of categories of products from northwind shop.
+        columns: 
+          - name: category_id
+            description: This is the primary key of categories table.
             tests:
               - unique
               - not_null
