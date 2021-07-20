@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: northwind_db
+    description: This is the source from google big query used in this project.
+    tables:
+      - name: public_orders
+        description: This is the table of orders from northwind shop.
+        columns: 
+          - name: order_id
+            description: This is the primary key of orders table.
+            tests:
+              - unique
+              - not_null
+
+      - name: public_order_details
+        description: This is the table of order_details from northwind shop.
+        columns: 
+          - name: order_id
+            description: This is the primary key of order_details table but not a unique one.
+            tests:
+              - not_null
+
+      - name: public_products
+        description: This is the table of products from northwind shop.
+        columns: 
+          - name: products_id
+            description: This is the primary key of products table.
+            tests:
+              - unique
+              - not_null
+
+      - name: public_customers
+        description: This is the table of customers from northwind shop.
+        columns: 
+          - name: customer_id
+            description: This is the primary key of customers table.
+            tests:
+              - unique
+              - not_null
+
+      - name: public_employees
+        description: This is the table of employees from northwind shop.
+        columns: 
+          - name: employee_id
+            description: This is the primary key of employees table.
+            tests:
+              - unique
+              - not_null
+
+      - name: public_shippers
+        description: This is the table of shippers from northwind shop.
+        columns: 
+          - name: shipper_id
+            description: This is the primary key of shippers table.
+            tests:
+              - unique
+              - not_null
+
+      - name: public_suppliers
+        description: This is the table of suppliers from northwind shop.
+        columns: 
+          - name: supplier_id
+            description: This is the primary key of suppliers table.
+            tests:
+              - unique
+              - not_null
