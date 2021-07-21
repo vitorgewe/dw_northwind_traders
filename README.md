@@ -1,23 +1,33 @@
-### Welcome to my data warehouse project!
+# Welcome to my new data warehouse project!
 
-The porpouse of this project is to serve as a training to my skills in ELT (yes ELT not ETL) and for everyone that want to learn something from it.
-This repository consists in a data warehouse of Northwind Traders (https://github.com/jasontaylordev/NorthwindTraders).
+## Main Objective
 
-Tools used in this project:\n
-Kondado (https://kondado.com.br/)\n
-GoogleBigQuery (https://cloud.google.com/bigquery)\n
-DBT (https://www.getdbt.com/)\n
+The goal of this project is to serve as a training to my skills in ELT (yes ELT not ETL) and for everyone that want to learn something from it.
+In this repository you will found the third step of ELT (Transform) via DBT, a very practical tool to manipulate raw data to develop a data warehouse to use for deeper analytics works.  
 
-## Install
+The source data from Northwind Traders can be fund in https://github.com/jasontaylordev/NorthwindTraders.
 
-All dependencies are in requirements.txt.\n
-Try:\n
-- pip install -r requirements.txt
+## DBT docs
 
-## Using the project
-
-To make use of this project try the following commands:
-- dbt run
-- dbt test
+You can acess the documentation via this commands inside project:
 - dbt docs generate
 - dbt docs serve
+Or you can enter in https://app.netlify.com/sites/lucid-jackson-b876f9/overview
+
+## Tools
+
+Tools used in this project:
+- Kondado (https://kondado.com.br/) (Extract)
+- GoogleBigQuery (https://cloud.google.com/bigquery) (Load)
+- DBT (https://www.getdbt.com/) (Transform)
+
+## Install dependencies
+
+All dependencies are in requirements.txt.
+- pip install -r requirements.txt
+
+## Useful commands in the project
+
+To make use of dbt in this project try the following commands:
+- dbt run
+- dbt test
