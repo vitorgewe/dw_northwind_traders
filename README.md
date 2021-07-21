@@ -12,6 +12,7 @@ The source data from Northwind Traders can be fund in https://github.com/jasonta
 You can acess the documentation via this commands inside project:
 - dbt docs generate
 - dbt docs serve
+  
 Or you can enter in https://app.netlify.com/sites/lucid-jackson-b876f9/overview
 
 ## Tools
